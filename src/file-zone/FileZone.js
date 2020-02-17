@@ -11,10 +11,6 @@ const Bold = ({children}) => {
 class FileZone extends Component {
 
     render() {
-        const {bold, italic, underline, children} = this.props;
-
-        console.log('bold ', bold);
-
         return (
             <div id="file-zone">
                 <div contentEditable={true} id="file">
